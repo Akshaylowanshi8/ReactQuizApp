@@ -6,9 +6,7 @@ function App(){
   return (
 <>
 
-<h1 className="flex justify-center">
-
-
+<h1 className="flex align-middle h-[100vh]">
 <Quiz />
 
 

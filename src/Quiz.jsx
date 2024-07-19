@@ -44,7 +44,7 @@ const Quiz = () => {
   };
   
   return (
-    <div className="container mx-auto p-4 text-center ">
+    <div className="container mx-auto p-4  text-start ml-32 ">
       <h1 className="text-6xl font-bold mb-4  text-center">Quiz App</h1>
      
       {!showScore ? (
@@ -52,7 +52,7 @@ const Quiz = () => {
           <h2 className="text-3xl mb-2">{quizQuestions[currentQuestionIndex].question}</h2>
           <div className="options  mb-4 text-3xl ">
             {quizQuestions[currentQuestionIndex].options.map((option, index) => (
-              <div key={index} className="mb-2 ">
+              <div key={index} className="mb-2  ">
                 <input
                 
                   required
